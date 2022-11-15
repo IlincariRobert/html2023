@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     width: 100%;
     max-width: 350px;
@@ -9,4 +10,26 @@ div{
     text-align: center;
     background-color: darkkhaki;
 
+=======
+p{
+    color: red;
+    font-size: 40;
+    font-weight: bold;
+
+    height: auto;
+    width: 100%;
+    max-width: 400;
+
+    border: 5px red solid;
+    background-color: blueviolet;
+    float: left;
+    margin: 25px;
+    padding: 10px 20px 25px;
+}
+#Mafia{
+    color: green;
+}
+.blue{
+    color: chocolate;
+>>>>>>> 516f83e (curs2/)
 }

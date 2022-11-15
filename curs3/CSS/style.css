@@ -5,6 +5,18 @@ p{
 p:hover{
     color: blue;
 }
+<<<<<<< HEAD
 h1 {
     font-size: 30px;
+=======
+h1{
+    font-size: 12px;
+}
+
+#demo{
+    color: aqua;
+}
+#demo:hover{
+    color: coral;
+>>>>>>> 516f83e (curs2/)
 }

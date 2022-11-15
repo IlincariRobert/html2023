@@ -1,6 +1,12 @@
 p{
     color: green;
+<<<<<<< HEAD
 }
+=======
+
+}
+
+>>>>>>> 516f83e (curs2/)
 #primulp{
     color: red;
 }
@@ -9,8 +15,11 @@ p{
 }
 .pfont{
     font-size: 35px;
+<<<<<<< HEAD
     color: coral;
 }
 div p{
     color: darkcyan;
+=======
+>>>>>>> 516f83e (curs2/)
 }
