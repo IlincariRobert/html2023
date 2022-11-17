@@ -1,0 +1,23 @@
+table{
+    border: 2px solid chocolate;
+    border-collapse: collapse;
+}
+table tr td, table tr th{
+    border: 1px solid blue;
+    padding: 10px;
+}
+table tr:nth-child(2n){
+    color: brown;
+    background-color: burlywood;
+}
+table tr:nth-child(2n+1){
+    color: blueviolet;
+    background-color: chocolate;
+}
+table tr:first-child{
+    background-color: coral;
+}
+table tr:hover{
+    background-color: blue;
+    color: green;
+}

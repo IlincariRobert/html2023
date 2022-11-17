@@ -1,0 +1,12 @@
+div{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 30px;
+    border: 20px orange solid;
+    padding: 10px;
+    float: right;
+    text-align: center;
+    background-color: darkkhaki;
+
+}

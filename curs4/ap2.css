@@ -1,0 +1,12 @@
+table{
+    width: 100%;
+    border: solid chocolate;
+}
+th{
+    color: aqua;
+    border: double black;
+}
+td{
+    color: blueviolet;
+    border: double black;
+}
