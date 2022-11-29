@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: hsl(0, 0%, 95%); */
+}
+.containercafa {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 14%;
+    
+}
+.rowcafa {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10% 15%;
+}
+.coi {
+    width: 33.33%;
+    padding: 8% 6%;
+    box-sizing: border-box;
+}
+.schema1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 17% 10%;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.h2cafa {
+    font-family: "Big Shoulders Display",sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 20px 0;
+}
+.pcafa {
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    line-height: 22px;
+    padding-bottom: 80px;
+    margin-top: 0px
+}
+.acafa {
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: 400;
+    border: 1px solid;
+    border-color: hsl(0, 0%, 95%);
+}
+.schemat {
+    background-color: hsl(184, 100%, 22%);
+    padding: 17% 10%;
+    width: 100%;
+}
+
+.schemak {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 17% 10%;
+    width: 100%;
+}
+.schema1 a {
+    color: hsl(31, 77%, 52%);
+}

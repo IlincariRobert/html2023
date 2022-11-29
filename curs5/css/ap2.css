@@ -1,0 +1,35 @@
+div{
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+}
+div img {
+    width: 100%;
+    max-width: 400px;
+}
+@media (max-width:576px) {
+    /*mobil*/
+    .laptop, .desktop{
+        display: none;
+    }
+    .mobil{
+        background-image: url('/Proiect/assets/css/images/descărcare.jpg');
+        background-size: cover;
+    }
+}
+@media (min-width:578px) and (max-width:768px) {
+    /*laptop*/
+    .mobil, .desktop{
+        display: none;
+    }
+    .laptop{
+       background-size: cover;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVW6tRa_qW83fppIYIFced0ZU96MQixbuoag8FH9umQQ&s);
+    }
+}
+@media (min-width:769px){
+    /* desktop*/
+    .laptop, .mobil{
+        display: none;
+    }
+}

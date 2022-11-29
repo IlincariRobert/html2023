@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ap4.css">
+</head>
+
+<body>
+    <div>
+        <h1>Formular Contact </h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="oras">Selecteaza orasul dorit</label>
+            <select name="oras" id="oras">
+                <option value="">Selecteaza...</option>
+                <option value="1">Bucuresti</option>
+                <option value="2">Otelu-Rosu</option>
+                <option value="3">Buzau</option>
+                <option value="4">Timisoara</option>
+            </select><br>
+            <label for="cursuri">Cursurile dorite</label>
+            <select name="cursuri[]" id="cursuri" multiple>
+                <option value="php">PHP</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+                <option value="html">HTML</option>
+                <option value="sql">SQL</option>
+            </select><br>
+            <label for="mesaj">Mesaj</label>
+            <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea> <br>
+            <label for="cv" name="cv">CV</label>
+            <input type="file" name="document" id="cv"><br>
+
+            <fieldset>
+                <figcaption>Program cursuri</figcaption>
+                <input type="radio" name="timp" id="Dimineata" value="Dimineata" checked> Dimineata
+                <input type="radio" name="timp" id="Pranz" value="Pranz"> Pranz
+                <input type="radio" name="timp" id="Seara" value="Seara"> Seara
+            </fieldset>
+            <br>   
+            <input type="checkbox" name="termeni" id="" checked>Termenii si conditiile
+            <input type="checkbox" name="abonat" id="">Abonat <br>
+            <input type="submit" value="Trimite" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>

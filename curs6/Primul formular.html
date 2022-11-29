@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Primul formular</h1>
+    <form action="" method="post">
+
+        <label for="nume">Nume:ex Popescu</label><br>
+        <input type="text" name="nume" id="nume" placeholder="Nume" required><br>
+        <label for="prenume">Prenume:ex Ion</label><br>
+        <input type="text" name="prenume" id="prenume" placeholder="Prenume" required><br>
+        <!--<label for="prenume">Adresa:ex IonelPrenumescu@gmail.com</label><br>
+        <input type="text" name="adresa" id="adresa" placeholder="Adresa" required><br> -->
+        <label for="Adresa de email">Adresa de email</label><br>
+        <input type="email" name="emailaddres" id="email" placeholder="Adresa de email"><br>
+        <label for="pass">Parola</label><br>
+        <input type="password" name="parola" id="pass" placeholder="Parola"><br>
+
+        <label for="gen"> Gen </label>
+        <input type="radio" name="gen" id="" value="m"> M </input>
+        <input type="radio" name="gen" id="" value="f"> F </input>
+        <input type="radio" name="gen" id="" value="n"> NaN </input><br>
+
+            <label for="curs">Perioada Curs</label><br>
+            <input type="radio" name="curs" id="" value="dimineata" checked>Dimineata
+            <input type="radio" name="curs" id="" value="pranz" disabled>Pranz
+            <input type="radio" name="curs" id="" value="seara" >Seara <br>
+            <label for="limbaje"> Limbaje de programare</label><br>
+            <input type="checkbox" name="limbaje[]" value="">PHP<br>
+            <input type="checkbox" name="limbaje[]" value="">HTML<br>
+            <input type="checkbox" name="limbaje[]" value="">CSS<br>
+            <input type="checkbox" name="limbaje[]" value="">SQL<br>
+            
+            <br><br>
+        <input type="submit" value="Sent Dates">
+        <input type="reset" value="Sterge Datele">
+    </form>
+</body>
+
+</html>

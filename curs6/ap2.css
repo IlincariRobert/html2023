@@ -1,0 +1,19 @@
+h1{
+    border-bottom: 2px solid rgb(0, 132, 255);
+}
+div{
+    width: 400px;
+    margin: auto;
+}
+label{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+input{
+    padding: 10px 5px;
+    margin-left: 0px;
+}
+a{
+    color: rgb(0, 132, 255);
+}
