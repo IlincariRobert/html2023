@@ -1,0 +1,13 @@
+p{
+    color: red;
+}
+p:last-child{
+    color: green;
+}
+p:first-child{
+    color: blue;
+}
+p:nth-child(2n+1){
+    color: brown
+}
+
