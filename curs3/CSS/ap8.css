@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 div{
     width: 100%;
     max-width: 350px;
@@ -10,10 +9,7 @@ div{
     float: right;
     text-align: center;
     background-color: darkkhaki;
-
-=======
-=======
->>>>>>> 516f83e0df9bc8236a6dd14dcc49c3ee63204c9c
+}
 p{
     color: red;
     font-size: 40;
@@ -34,8 +30,4 @@ p{
 }
 .blue{
     color: chocolate;
-<<<<<<< HEAD
->>>>>>> 516f83e (curs2/)
-=======
->>>>>>> 516f83e0df9bc8236a6dd14dcc49c3ee63204c9c
 }
